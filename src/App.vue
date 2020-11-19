@@ -1,11 +1,16 @@
 <template>
-  <h1>Hello world</h1>
+  <Header />
 </template>
 
 <script>
+import Header from './components/Header';
 
 export default {
-
+  setup() {
+   return {
+     Header
+   }
+  }
 }
 </script>
 
