@@ -32,9 +32,10 @@ export default {
       state.income = [...state.income, {
         id: Date.now(),
         desc: data.desc,
-        value: data.value,
+        value: parseInt(data.value),
         date: newD.getTime()
       }];
+
       console.log(state.income);
     }
 
